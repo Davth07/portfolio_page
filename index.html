@@ -35,33 +35,49 @@
   <body>
     <!-- Top section - header -->
     <header>
-      <h1><a href="#">Thörnqvist</a></h1>
+      <h1>Thörnqvist</h1>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#contacts">Contact me</a></li>
         </ul>
       </nav>
       <div></div>
     </header>
     <!-- Top section - main -->
     <main>
-      <section id="home">
+      <section>
         <!-- Home section -->
         <h2>Hello, I am David Thörnqvist.</h2>
         <img src="" alt="Placeholder image" height="300px" width="300px" />
       </section>
       <section id="about">
         <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae,
-          quibusdam hic officiis earum illo neque. Voluptas eos nobis maiores
-          ratione eveniet voluptates consequatur hic fuga, molestiae commodi
-          magnam rem, voluptate aliquam veniam minima dolores beatae laboriosam
-          odit sequi illum nemo.
-        </p>
+        <h3>Experience</h3>
+        <table border="1">
+          <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+            <th>C#</th>
+            <th>Python</th>
+          </tr>
+          <tr>
+            <th>Intermediate/Good</th>
+            <th>Intermediate</th>
+            <th>Beginner</th>
+            <th>Beginner/Intermediate</th>
+            <th>Beginner</th>
+          </tr>
+          <tr>
+            <th>1-2 years</th>
+            <th>1-2 years</th>
+            <th>1-2 weeks</th>
+            <th>1 year</th>
+            <th>1-2 months</th>
+          </tr>
+        </table>
         <h3>Hobbies</h3>
         <ul>
           <li>Football</li>
@@ -74,6 +90,17 @@
           <li>Breaking bad</li>
           <li>Friends</li>
         </ol>
+        <h3>Favourite place</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2037.5037461025506!2d18.081940076886838!3d59.291143674595816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7825b1e081a5%3A0x9673773aefbfae6!2s3Arena!5e0!3m2!1ssv!2sse!4v1758715092479!5m2!1ssv!2sse"
+          width="400"
+          height="350"
+          style="border: 1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p>(football)</p>
       </section>
       <section id="projects">
         <h2>Projects</h2>
@@ -91,14 +118,19 @@
           <label for="name">Name</label><br />
           <input type="text" name="name" /><br />
           <label for="email">Email</label><br />
-          <input type="email" name="email" /><br />
+          <input type="email" name="email" required /><br />
           <label for="message">Message</label><br />
-          <textarea name="message" cols="30" rows="10"></textarea><br />
+          <textarea name="message" cols="30" rows="10" required></textarea
+          ><br />
           <button type="submit">Submit</button>
         </form>
+        <br />
       </section>
     </main>
     <!-- Top section - footer -->
-    <footer><a href="https://www.youtube.com/">Youtube</a></footer>
+    <footer>
+      <p>&copy; David Thörnqvist 2025</p>
+      <a href="https://www.youtube.com/">Youtube</a>
+    </footer>
   </body>
 </html>
