@@ -50,7 +50,12 @@
       <section>
         <!-- Home section -->
         <h2>Hello, I am David Thörnqvist.</h2>
-        <img src="" alt="Placeholder image" height="300px" width="300px" />
+        <img
+          src="profile.jpg"
+          alt="Placeholder image"
+          height="300px"
+          width="300px"
+        />
       </section>
       <section id="about">
         <h2>About me</h2>
@@ -64,18 +69,18 @@
             <th>Python</th>
           </tr>
           <tr>
-            <th>Intermediate/Good</th>
-            <th>Intermediate</th>
-            <th>Beginner</th>
-            <th>Beginner/Intermediate</th>
-            <th>Beginner</th>
+            <td>Intermediate/Good</td>
+            <td>Intermediate</td>
+            <td>Beginner</td>
+            <td>Beginner/Intermediate</td>
+            <td>Beginner</td>
           </tr>
           <tr>
-            <th>1-2 years</th>
-            <th>1-2 years</th>
-            <th>1-2 weeks</th>
-            <th>1 year</th>
-            <th>1-2 months</th>
+            <td>1-2 years</td>
+            <td>1-2 years</td>
+            <td>1-2 weeks</td>
+            <td>1 year</td>
+            <td>1-2 months</td>
           </tr>
         </table>
         <h3>Hobbies</h3>
@@ -90,6 +95,18 @@
           <li>Breaking bad</li>
           <li>Friends</li>
         </ol>
+        <h3>Favourite HTML, CSS, JS tutorial</h3>
+        <iframe
+          width="400"
+          height="250"
+          src="https://www.youtube.com/embed/kAiX0itnonM?si=oYVpDy0gah4uxdNv"
+          title="YouTube video player"
+          frameborder="1"
+          allowfullscreen
+          controls
+        ></iframe>
+        <h3>Audio</h3>
+        <audio src="" controls></audio>
         <h3>Favourite place</h3>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2037.5037461025506!2d18.081940076886838!3d59.291143674595816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7825b1e081a5%3A0x9673773aefbfae6!2s3Arena!5e0!3m2!1ssv!2sse!4v1758715092479!5m2!1ssv!2sse"
@@ -98,7 +115,6 @@
           style="border: 1"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
         <p>(football)</p>
       </section>
@@ -116,11 +132,17 @@
         <h2>Contact me</h2>
         <form method="post">
           <label for="name">Name</label><br />
-          <input type="text" name="name" /><br />
+          <input type="text" name="name" id="name" /><br />
           <label for="email">Email</label><br />
-          <input type="email" name="email" required /><br />
+          <input type="email" name="email" id="email" required /><br />
           <label for="message">Message</label><br />
-          <textarea name="message" cols="30" rows="10" required></textarea
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            required
+            id="message"
+          ></textarea
           ><br />
           <button type="submit">Submit</button>
         </form>
